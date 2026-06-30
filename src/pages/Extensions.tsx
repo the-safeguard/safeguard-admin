@@ -1,7 +1,7 @@
 import { Check, Send } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import type { Integration } from "@the-safeguard/types";
+import type { Integration } from "@the-safeguard-ai/types";
 import {
   configureIntegration,
   getIntegrations,

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { LogoMark } from "@the-safeguard/ui/brand";
+import { LogoMark } from "@the-safeguard-ai/ui/brand";
 import { useAuth } from "../auth/AuthContext";
 import { register as apiRegister } from "../lib/api";
 

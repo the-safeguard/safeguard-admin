@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { LogoMark } from "@the-safeguard/ui/brand";
+import { LogoMark } from "@the-safeguard-ai/ui/brand";
 import { useAuth } from "../auth/AuthContext";
 import { acceptInvite, previewInvite, type InvitePreview } from "../lib/api";
 

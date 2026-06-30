@@ -1,6 +1,6 @@
 import { Bell, User, LogOut, Moon, Sun } from "lucide-react";
 import { useState } from "react";
-import { useTheme } from "@the-safeguard/ui/theme";
+import { useTheme } from "@the-safeguard-ai/ui/theme";
 import { useAuth } from "../../auth/AuthContext";
 
 export function Navbar() {

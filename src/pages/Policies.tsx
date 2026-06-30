@@ -2,7 +2,7 @@ import { Globe, Pencil, Plus, Shield, Trash2 } from "lucide-react";
 import { useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { createPolicy, deletePolicy, getPolicies, getRulePacks, updatePolicy } from "../lib/api";
-import type { Policy } from "@the-safeguard/types";
+import type { Policy } from "@the-safeguard-ai/types";
 
 const ALL_PATTERNS = [
   "email", "api_key", "credit_card", "ssn", "phone",

@@ -5,7 +5,7 @@
    @theme block below maps each of those names straight onto the shared tokens,
    so the whole dashboard adopts the brand — green instead of blue-violet,
    light default — with no component churn. See docs/DESIGN_SYSTEM.md. */
-@import "@the-safeguard/ui/tokens.css";
+@import "@the-safeguard-ai/ui/tokens.css";
 
 @theme inline {
   --color-background: var(--bg);

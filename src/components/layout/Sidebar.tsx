@@ -1,7 +1,7 @@
 import { BarChart3, BookOpen, Shield, Users, FileText, Zap, Settings, Radar, Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { LogoMark } from "@the-safeguard/ui/brand";
+import { LogoMark } from "@the-safeguard-ai/ui/brand";
 
 const navItems = [
   { id: "overview", label: "Overview", icon: BarChart3, href: "/dashboard" },

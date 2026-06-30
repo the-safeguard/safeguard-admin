@@ -1,6 +1,6 @@
 import { AlertCircle, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import type { RiskAlert } from "@the-safeguard/types";
+import type { RiskAlert } from "@the-safeguard-ai/types";
 
 const severityColors: Record<string, string> = {
   low: "bg-blue-500/10 text-blue-500",

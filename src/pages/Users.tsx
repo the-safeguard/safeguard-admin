@@ -1,7 +1,7 @@
 import { Check, Copy, Pencil, Plus, RefreshCw, Trash2, X } from "lucide-react";
 import { useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import type { User } from "@the-safeguard/types";
+import type { User } from "@the-safeguard-ai/types";
 import {
   createTeam,
   createUser,

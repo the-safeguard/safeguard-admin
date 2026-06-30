@@ -8,7 +8,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import type { UsagePoint } from "@the-safeguard/types";
+import type { UsagePoint } from "@the-safeguard-ai/types";
 
 export function UsageChart({ data }: { data: UsagePoint[] }) {
   return (

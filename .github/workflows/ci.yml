@@ -8,7 +8,7 @@ on:
   pull_request:
 
 env:
-  IMAGE: ghcr.io/the-safeguard/admin
+  IMAGE: ghcr.io/the-safeguard-ai/admin
 
 jobs:
   build:

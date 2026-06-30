@@ -1,5 +1,5 @@
-// Control-plane data layer for the admin app. Typed via @the-safeguard/types.
-// (The @the-safeguard/sdk client targets external consumers + the gateway stream;
+// Control-plane data layer for the admin app. Typed via @the-safeguard-ai/types.
+// (The @the-safeguard-ai/sdk client targets external consumers + the gateway stream;
 // the dashboard uses these thin, mutation-capable wrappers.)
 
 import type {
@@ -10,7 +10,7 @@ import type {
   RiskAlert,
   UsagePoint,
   User,
-} from "@the-safeguard/types";
+} from "@the-safeguard-ai/types";
 
 export const CONTROL_PLANE_URL =
   import.meta.env.VITE_CONTROL_PLANE_URL ?? "http://localhost:8081";
